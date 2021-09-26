@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/bacgroundbuut"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FemaleActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="4dp"
+    android:layout_margin="6dp"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FemaleActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinefemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/oboidevushkalegacy"
+        app:layout_constraintBottom_toTopOf="@+id/guidelinefemale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_margin="6dp"
+        android:onClick="onCklickarmsfemale"
+        android:scaleType="fitXY"
+        android:src="@drawable/femalearmsoboi"
+        android:id="@+id/imageViewfemalecategoryactvity"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewfemalearmscategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:id="@+id/textViewfemalearmscategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arms"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewfemalecategoryactvity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewfemalecategoryactvity" />
+
+    <ImageView
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_margin="6dp"
+        android:onClick="onCklickchestFemale"
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewchestfemales"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewfemaleschestscategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewfemalecategoryactvity"
+        android:src="@drawable/chestfemalelegacy" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:id="@+id/textViewfemaleschestscategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chest"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewchestfemales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewchestfemales" />
+
+
+    <ImageView
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_margin="6dp"
+        android:onClick="onCklickbuttFemale"
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewbuttsfemalescategory"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewfemaleschestscategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewchestfemales"
+        android:src="@drawable/femalebuttoboi" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:id="@+id/textViewfemalesbuttscategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Butts"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewbuttsfemalescategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbuttsfemalescategory" />
+    <ImageView
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_margin="6dp"
+        android:onClick="onCklickABCFemale"
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewABCfemalescategory"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewfemaleschestscategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewbuttsfemalescategory"
+        android:src="@drawable/femaleabclegacy" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:id="@+id/textViewfemalesABCscategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABC"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewABCfemalescategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewABCfemalescategory" />
+    <ImageView
+        android:background="@color/white"
+        android:padding="4dp"
+        android:layout_margin="6dp"
+        android:onClick="onCklickLegsFemale"
+        android:scaleType="fitXY"
+        android:id="@+id/imageViewLEGSfemalescategory"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewfemaleschestscategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewABCfemalescategory"
+        android:src="@drawable/fitnes_female_legs_legacy" />
+
+    <TextView
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:id="@+id/textViewfemalesLEGSscategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legs"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewLEGSfemalescategory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewLEGSfemalescategory"/>
+
+    <TextView
+        android:layout_marginBottom="6dp"
+        android:layout_margin="10dp"
+        android:onClick="onCklickJoinTochat"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Click Join to fitness group chat"
+        android:id="@+id/textviewfemalepashings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLEGSfemalescategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

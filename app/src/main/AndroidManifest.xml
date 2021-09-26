@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.changeyourself.fitnesapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitnesapp">
+        <activity android:name=".FEmalechests"></activity>
+        <activity android:name=".FemalePressactivity" />
+        <activity android:name=".KogInActivity" />
+        <activity android:name=".RegistrActivity" />
+        <activity android:name=".MesageActivity" />
+        <activity android:name=".LegsFemale" />
+        <activity android:name=".Buttfemale" />
+        <activity android:name=".Femalearm" />
+        <activity android:name=".Legsactivity" />
+        <activity android:name=".AssActivity" />
+        <activity android:name=".PressActivity" />
+        <activity android:name=".Shoulders" />
+        <activity android:name=".NecActivity" />
+        <activity android:name=".ChestActivity" />
+        <activity android:name=".ArmsBuildActivity" />
+        <activity android:name=".FemaleActivity" />
+        <activity android:name=".MailActivitycategory" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

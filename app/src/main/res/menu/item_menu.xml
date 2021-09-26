@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/back_to_main_menu" android:id="@+id/itemMainmenu"/>
+
+    <item android:title="@string/back_to_male_menu" android:id="@+id/itemMaleMenu"/>
+    <item android:title="@string/back_to_female_menu" android:id="@+id/itemFemaleMenu"/>
+    <item android:title="Back to group chat" android:id="@+id/itemBacktogroupchat"/>
+</menu>

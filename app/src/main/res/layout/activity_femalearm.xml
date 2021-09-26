@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".Femalearm">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/femalearm1"
+        android:id="@+id/textviewarmsfemalestask1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:onClick="oncklickGotoFemaleFragmentarms1"
+        android:text="Exercise 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textviewarmsfemalestask2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/femalearm2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Exercise 2"
+            android:id="@+id/textviewarmsfemalestask2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="4dp"
+            android:onClick="oncklickGotoFemaleFragmentarms2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textviewarmsfemalestask3"
+            app:layout_constraintStart_toEndOf="@+id/textviewarmsfemalestask1"
+            app:layout_constraintTop_toBottomOf="@+id/containerfemalearm"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/femalearm3"
+            android:onClick="oncklickGotoFemaleFragmentarms3"
+            android:gravity="center"
+            android:text="Exercise 3"
+            android:layout_margin="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/containerfemalearm"
+            android:id="@+id/textviewarmsfemalestask3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textviewarmsfemalestask4"
+            app:layout_constraintStart_toEndOf="@+id/textviewarmsfemalestask2"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/femalearm4"
+            android:onClick="oncklickGotoFemaleFragmentarms4"
+            android:gravity="center"
+            android:text="Exercise 4"
+            android:layout_margin="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/containerfemalearm"
+            android:id="@+id/textviewarmsfemalestask4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textviewarmsfemalestask3"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/containerfemalearm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/textviewarmsfemalestask1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tiujedelalworkout" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

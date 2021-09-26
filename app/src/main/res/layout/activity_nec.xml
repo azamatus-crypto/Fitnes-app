@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NecActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelinenecAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="91dp" />
+
+        <ImageView
+            android:src="@drawable/mansfitness"
+            android:id="@+id/imageViewnec"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/guidelinenecAct"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:fontFamily="serif"
+            style="@style/LabelStyle"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/textViewnectbuild"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/how_to_build_a_thicker_neck_at_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewnec" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:fontFamily="serif"
+            android:textColor="@color/white"
+            style="@style/LabelStyle"
+            android:text="@string/necstep1curve"
+            android:id="@+id/textviewneckstep1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewnectbuild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/giftfemaleneck1"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/neck4444"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textviewneckstep1" />
+         <TextView
+             android:layout_margin="10dp"
+             android:padding="8dp"
+             android:fontFamily="serif"
+             android:textColor="@color/white"
+             android:text="@string/necextension2"
+             android:id="@+id/textviewnecstep2"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/giftfemaleneck1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/giftfemaleneck2"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/neckmalegift"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textviewnecstep2"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageviewgotoyoutubenecks"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/buttonmyownworkouts"
+            android:clickable="true"
+            android:onClick="onCklickgotomalelneck"
+            android:text="My own\n work outs"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/youtubeimage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

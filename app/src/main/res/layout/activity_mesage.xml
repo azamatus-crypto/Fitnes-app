@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oboiwhatsup"
+    tools:context=".MesageActivity">
+
+    <ImageView
+        android:background="@color/bluuuue"
+        android:layout_marginTop="4dp"
+        android:id="@+id/imageViewsendmesages"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextMultiLinechar"
+        app:layout_constraintTop_toBottomOf="@+id/recycklerviewforthecaht"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/editTextTextMultiLinechar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewsendmesages"
+        app:layout_constraintStart_toEndOf="@+id/imageViewchatimages"
+        app:layout_constraintTop_toBottomOf="@+id/recycklerviewforthecaht" />
+
+    <ImageView
+        android:id="@+id/imageViewchatimages"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/bluuuue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextMultiLinechar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycklerviewforthecaht"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycklerviewforthecaht"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLinechar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

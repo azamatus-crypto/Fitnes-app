@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        tools:context=".Shoulders">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/shouldergift2"
+        android:id="@+id/textviewmaleshoulders1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:onClick="oncklickGotoShouldersFragment1"
+        android:text="Exercise 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textviewmaleshoulders2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/maleshoulder1"
+            android:gravity="center"
+            android:text="Exercise 2"
+            android:id="@+id/textviewmaleshoulders2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="4dp"
+            android:onClick="onCklikcGoTomaleShouldersfragment2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textviewmaleshoulders3"
+            app:layout_constraintStart_toEndOf="@+id/textviewmaleshoulders1"
+            app:layout_constraintTop_toBottomOf="@+id/containerShoulder"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/maleshoulder3"
+            android:onClick="onCklikcGoTomaleShouldersfragment3"
+            android:gravity="center"
+            android:text="Exercise 3"
+            android:layout_margin="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/containerShoulder"
+            android:id="@+id/textviewmaleshoulders3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textviewmaleshoulders4"
+            app:layout_constraintStart_toEndOf="@+id/textviewmaleshoulders2"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:adjustViewBounds="true"
+            android:src="@drawable/shouldersgift4"
+            android:onClick="onCklikcGoTomaleShouldersfragment4"
+            android:gravity="center"
+            android:text="Exercise 4"
+            android:layout_margin="4dp"
+            app:layout_constraintTop_toBottomOf="@+id/containerShoulder"
+            android:id="@+id/textviewmaleshoulders4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textviewmaleshoulders3"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:id="@+id/containerShoulder"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/textviewmaleshoulders1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/tiujedelalworkout" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

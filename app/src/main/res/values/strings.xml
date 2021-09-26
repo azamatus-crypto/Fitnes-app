@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Change your self</string>
+    <string name="how_build_arms_home">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="_2_concentration_curl_reps">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="diamond_presup">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="triceps_kik_back">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="hummer_curl">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="build_your_arms_at_home">Build your arms at home.</string>
+    <string name="wide_presup">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="chest_shufeling">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="chest_diamond">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="chest_one_arm_pushups">1 set 14| 2 set 12| 3 set 10| 4 set 8.</string>
+    <string name="how_to_build_a_thicker_neck_at_home">How to Build a Thicker Neck at Home</string>
+    <string name="necstep1curve">1. Neck Curls First, You want to lay down flat on your back.    1 set 13| 2 set 18| 3 set 20| 4 set 25</string>
+    <string name="necextension2">2. 1 set 13| 2 set 18| 3 set 20| 4 set 25</string>
+    <string name="shouldersexercisestep1">Dumbbell Shoulder Press (Seated or Standing)
+        1.From a seated or standing position, start with the heavy dumbbells at your side. 2.Lift the dumbbells up to the starting position, so they are above and slightly in front of your shoulders as shown. This is the start position. 3.Lift the dumbbells straight up in a steady and controlled motion. Extend your arms until they’re nearly straight, and this is the up position. 4.Return to the start position.</string>
+    <string name="shoulderexercise2">Dumbbell Side Raises 1.From a standing position with good posture, hold the dumbbells at your side, with palms facing each other. This is the start position. 2.Lift the dumbbells straight out to your side until your arms are parallel to the ground. Hold the up position for 2 seconds. 3.Return to the start position.</string>
+    <string name="shoulderexercise3">Dumbbell Front Raises 1.From a standing position, hold the dumbbells in front of you as shown, with your palms facing your body. 2.Lift the dumbbells straight out to the front, until your arms are parallel to the floor. Hold the up position for 2 seconds. 3.Return to the start position.</string>
+    <string name="shoulderexercise4">Bent Over Dumbbell Side Raises 1.With dumbbells at your side, bend at the waist so that your upper body is nearly parallel to the floor. Keep your back straight. 2.Hold the dumbbells straight down below you. This is the start position. 3.Lift the dumbbells straight out to the side, in a reverse flys motion. Hold the up position for 2 seconds. 4.Return to the start position.</string>
+    <string name="clamshelNutt">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="hip_ytsudtbut">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="deadlidtsbutt">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="kettlebel_sift">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="sinle_leg_drift">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="sqats_buuts">1 set 20| 2 set 24| 3 set 25| 4 set 30.</string>
+    <string name="legs1_workout">3 sets of 20 reps </string>
+    <string name="back_to_main_menu">Back to main menu</string>
+    <string name="back_to_male_menu">Back to Male menu</string>
+    <string name="back_to_female_menu">Back to Female menu</string>
+    <string-array name="male_activity_category">
+        <item>Boost arms muscle</item>
+        <item>Build chests</item>
+        <item>Exercises for neck</item>
+        <item>Shoulders</item>
+        <item>Press workout</item>
+        <item>Butt workout</item>
+        <item>Legs workout</item>
+    </string-array>
+    <string-array name="female_activity_category">
+        <item>work out for arms</item>
+        <item>Shoulders work out</item>
+        <item>Press workout</item>
+        <item>Butt workout</item>
+        <item>Legs workout</item>
+    </string-array>
+    <string-array name="dayofwweksarray">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

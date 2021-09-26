@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Legsactivity">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/legsmale3333"
+        android:id="@+id/imageViewmalelegsstask1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:onClick="oncklickGotolegsFragment1"
+        android:text="Exercise 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmalelegstask2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/malelegs2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Exercise 2"
+        android:id="@+id/imageViewmalelegstask2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:onClick="onCklikcGoTomalelegsfragment2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmalelegstask3"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmalelegsstask1"
+        app:layout_constraintTop_toBottomOf="@+id/containerlegsmale"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/malelegs3"
+        android:onClick="onCklikcGoTomalelegsfragment3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Exercise 3"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/containerlegsmale"
+        android:id="@+id/imageViewmalelegstask3"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmalelegstask4"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmalelegstask2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/malelegs4"
+        android:onClick="onCklikcGoTomalelegsfragment4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Exercise 4"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/containerlegsmale"
+        android:id="@+id/imageViewmalelegstask4"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmalelegstask3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@+id/containerlegsmale"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewmalelegsstask1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tiujedelalworkout" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

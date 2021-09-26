@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AssActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/buttmale888"
+        android:id="@+id/imageViewmaleassstask1"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:onClick="oncklickGotoFragmentbuuts1"
+        android:text="Exercise 1"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmaleassstask2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerbuutmale"
+        app:layout_constraintVertical_weight="1" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/buttmale2"
+        android:id="@+id/imageViewmaleassstask2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:onClick="onCklikcGoTomaleBuutsfragment2"
+        android:text="Exercise 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmaleassstask3"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmaleassstask1"
+        app:layout_constraintTop_toBottomOf="@+id/containerbuutmale"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/malebutt3"
+        android:onClick="onCklikcGoTomaleBuutsfragment3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Exercise 3"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/containerbuutmale"
+        android:id="@+id/imageViewmaleassstask3"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewmaleassstask4"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmaleassstask2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:adjustViewBounds="true"
+        android:src="@drawable/malelegs2"
+        android:onClick="onCklikcGoTomaleButtsfragment4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Exercise 4"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/containerbuutmale"
+        android:id="@+id/imageViewmaleassstask4"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmaleassstask3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@+id/containerbuutmale"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewmaleassstask1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/tiujedelalworkout" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

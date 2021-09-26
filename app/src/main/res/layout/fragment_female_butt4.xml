@@ -1,0 +1,58 @@
+
+    <ScrollView
+        android:background="@color/white"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="fragments.FemaleButtFragment4">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewdescriptionfemalebutt4"
+                style="@style/LabelStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"
+                android:padding="8dp"
+                android:text="@string/how_build_arms_home"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/femalebuuts4"
+                app:layout_constraintEnd_toStartOf="@+id/imageViewgotofemalebuttsYoutube4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageViewgotofemalebuttsYoutube4"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:src="@drawable/youtubeimage"
+                app:layout_constraintBottom_toTopOf="@+id/femalebuuts4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textViewdescriptionfemalebutt4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/femalebuuts4"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/femalebutt4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewdescriptionfemalebutt4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>

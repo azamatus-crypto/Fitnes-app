@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41718741855",
+    "project_id": "fitnesapp-58682",
+    "storage_bucket": "fitnesapp-58682.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41718741855:android:10a92589481daadfca54ea",
+        "android_client_info": {
+          "package_name": "com.changeyourself.fitnesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41718741855-832ml5o5kf98cr471q3ii5rq7j02l00i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.changeyourself.fitnesapp",
+            "certificate_hash": "ddbb0825c46911c7e8d17f654214f82bdade8028"
+          }
+        },
+        {
+          "client_id": "41718741855-n6ucrs6n9sebmok0e9q8e52lcfie36n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZzCZPS4AmHhyjPTH2mHPX6g4FG3Ns0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41718741855-n6ucrs6n9sebmok0e9q8e52lcfie36n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

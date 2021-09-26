@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="malebuttoncolor">#8DA2E3</color>
+    <color name="femalebuttoncolor">#534D4F</color>
+    <color name="bacgroundprescolor">#3CB371</color>
+    <color name="bacgroundbuut">#FF9800</color>
+    <color name="legscolor">#D62B31</color>
+    <color name="item_notecolor">#FCC8C6E3</color>
+    <color name="recycklercolor">#FF5722</color>
+    <color name="buttonmyownworkouts">#A6A9AE</color>
+    <color name="backgroundmalecategory">#18EFD4</color>
+    <color name="backgroundfemalebuttfemale">#F30F5F</color>
+    <color name="expirience">#E81AC646</color>
+    <color name="bluuuue">#E84F8FFF</color>
+    <color name="header">#E84F8FFF</color>
+
+
+
+</resources>
